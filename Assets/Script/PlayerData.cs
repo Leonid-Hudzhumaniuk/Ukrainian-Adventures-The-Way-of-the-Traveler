@@ -46,6 +46,10 @@ public class PlayerData : MonoBehaviour
     public void minusMoney()
     {
         Money -= 100;
+    }     
+    public void nullMoney()
+    {
+        Money = 00;
     }   
     public void BuyGitare()
     {

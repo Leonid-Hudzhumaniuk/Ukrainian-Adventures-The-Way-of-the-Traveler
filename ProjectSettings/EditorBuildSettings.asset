@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: dbcbcaeb114a7864497954bc1183428f
+  - enabled: 1
+    path: Assets/Scenes/Kharkiv.unity
+    guid: 596cc430620f6764e81bf0e4098c60ad
   m_configObjects: {}
