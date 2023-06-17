@@ -95,4 +95,10 @@ public class PlayerLogic : MonoBehaviour
             _isGrounded = true;
         }
     }
+
+    public void timeBack()
+    {
+        Time.timeScale = 1;
+    }    
+ 
 }

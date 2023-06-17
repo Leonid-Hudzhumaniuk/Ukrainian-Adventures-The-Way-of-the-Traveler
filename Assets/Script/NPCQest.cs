@@ -12,6 +12,12 @@ public class NPCQest : MonoBehaviour
 		{
 			Dialog.SetActive(true);
 			BG.SetActive(true);
+			Time.timeScale = 0;
 		}
+	}
+
+	public void timeBack()
+	{
+		Time.timeScale = 1;
 	}
 }
