@@ -52,6 +52,7 @@ public class PlayerData : MonoBehaviour
         if (money >= 100)
         {
             Gitara = 1;
+            minusMoney();
         }
     }
     
