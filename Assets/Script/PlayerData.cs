@@ -59,6 +59,4 @@ public class PlayerData : MonoBehaviour
             minusMoney();
         }
     }
-    
-
 }

@@ -16,13 +16,13 @@ public class LiftTween : MonoBehaviour
 
     void Start()
     {
-        MoveUp();
+        
 
     }
 
-    private void MoveUp()
+    public void MoveUp()
     {
-        _tweener = transform.DOMove(posB.position, time).SetEase(Ease.InOutQuint);
+        _tweener = transform.DOMove(posB.position, time).SetEase(Ease.Linear);
 
     }
 
